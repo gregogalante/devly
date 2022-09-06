@@ -4,7 +4,7 @@ Guida su come gestire database multipli condivisi su Postgre.
 Questa guida è stata applicata in particolare su un servizio DB postgre Digital Ocean utilizzato su diversi progetti.
 Ad ogni progetto è stato applicato un utente e database diverso aventi lo stesso nome.
 
-## Mettere in sicurezza gli accessi database/utente
+## METTERE IN SICUREZZA GLI ACCESSI DATABASE/UTENTI
 
 Dopo aver creato gli utenti e i database eseguire il seguente script python:
 
@@ -64,7 +64,7 @@ for database_name in database_names:
 conn.close()
 ```
 
-## Resettare ID autoincrementali
+## RESET ID AUTO-INCRMENTALI
 
 Nel caso di database importati da altre strutture dati è importante effettuare il reset degli ID auto-incrementali attraverso l'esecuzione del seguente script python:
 
