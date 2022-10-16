@@ -38,7 +38,7 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
 
-## INSTALLARE IL LINGUAGGIO DI PROGRAMMAZIONE RUBY
+## INSTALLARE IL LINGUAGGIO DI PROGRAMMAZIONE RUBY (FACOLTATIVO)
 
 Per l’installazione di Ruby si consiglia di utilizzare RVM seguendo la guida presente nel sito ufficiale: https://rvm.io.
 
@@ -49,10 +49,10 @@ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D69
 curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-## INSTALLARE NODE.JS
+## INSTALLARE NODE.JS (FACOLTATIVO)
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs
 ```
