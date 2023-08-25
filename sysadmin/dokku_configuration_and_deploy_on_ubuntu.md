@@ -31,6 +31,12 @@ Installare plugin per Postgres:
 sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git
 ```
 
+Installare plugin per Redis:
+
+```sh
+sudo dokku plugin:install https://github.com/dokku/dokku-redis.git redis
+```
+
 Installare plugin per Let's Encrypt:
 
 ```sh
@@ -52,6 +58,13 @@ Creare il database:
 ```sh
 dokku postgres:create your-app-name
 dokku postgres:link your-app-name your-app-name
+```
+
+Creare il database redis:
+
+```sh
+dokku redis:create your-app-name
+dokku redis:link your-app-name your-app-name
 ```
 
 Configurare il dominio:
