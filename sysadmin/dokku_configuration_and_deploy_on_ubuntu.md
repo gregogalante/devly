@@ -11,6 +11,20 @@ Impostare la connessione SSH alla macchina tramite chiave pubblica/privata.
 
 ### Configurazione Dokku
 
+Ottenere la propria chiave pubblica:
+
+```sh
+cat ~/.ssh/id_rsa.pub
+```
+
+Aggiungere la chiave pubblica del proprio computer al server Dokku:
+
+```sh
+mkdir public_keys
+nano public_keys/your-computer-name.pub
+dokku ssh-keys:add KEY_NAME public_keys/your-computer-name.pub
+```
+
 Installare plugin per Postgres:
 
 ```sh
@@ -45,4 +59,13 @@ Configurare il dominio:
 ```sh
 dokku domains:set your-app-name your-app-name.com
 dokku letsencrypt:enable your-app-name
+```
+
+### Deploy applicazione
+
+Aggiungere il repository remoto:
+
+```sh
+git remote add dokku dokku@server.ip:our-app-name
+git push dokku main:master
 ```
