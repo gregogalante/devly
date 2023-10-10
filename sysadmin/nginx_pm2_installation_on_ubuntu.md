@@ -70,3 +70,13 @@ sudo apt-get install nginx
 npm install -g pm2
 ```
 
+## ATTIVARE ELIMINAZIONE LOG PM2
+
+```bash
+crontab -e
+```
+
+```txt
+0 0 * * * rm -rf /home/deploy/.pm2/logs/*
+```
+
