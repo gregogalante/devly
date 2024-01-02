@@ -1,5 +1,9 @@
-# Installazione di Nginx e PM2 su server Ubuntu 18+
-
+---
+layout: post
+title:  "[IT] Installazione di Nginx e PM2 su server Ubuntu 18+"
+date:   2024-01-01 00:00:00 +0100
+categories: sysadmin
+---
 ## CREAZIONE DI UN UTENTE DEPLOY
 
 Per motivi di sicurezza è una buona pratica utilizzare un utenza diversa da root per gestire le attività di deploy degli applicativi all’interno del server.
@@ -38,19 +42,7 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo nano /etc/fail2ban/jail.local
 ```
 
-## INSTALLARE IL LINGUAGGIO DI PROGRAMMAZIONE RUBY (FACOLTATIVO)
-
-Per l’installazione di Ruby si consiglia di utilizzare RVM seguendo la guida presente nel sito ufficiale: https://rvm.io.
-
-Eventualmente seguire i seguenti comandi:
-
-```bash
-sudo apt install gnupg2
-gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-curl -sSL https://get.rvm.io | bash -s stable
-```
-
-## INSTALLARE NODE.JS (FACOLTATIVO)
+## INSTALLARE NODE.JS
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
@@ -79,4 +71,5 @@ crontab -e
 ```txt
 0 0 * * * rm -rf /home/deploy/.pm2/logs/*
 ```
+
 

@@ -1,5 +1,9 @@
-# BLOCCO PREVENTIVO COOKIE IUBENDA
-
+---
+layout: post
+title:  "[IT] Blocco preventivo dei cookie tramite Iubenda"
+date:   2024-01-01 00:00:00 +0100
+categories: webdev
+---
 ## WORDPRESS
 
 1. Installare il plugin [Iubenda Cookie Solution](https://wordpress.org/plugins/iubenda-cookie-solution/) e attivarlo

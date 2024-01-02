@@ -1,5 +1,9 @@
-# LET'S ENCRYPT CONFIGURATION ON NGINX
-
+---
+layout: post
+title:  "[IT] Installare e configurare Lets Encrypt con Nginx"
+date:   2024-01-01 00:00:00 +0100
+categories: sysadmin
+---
 ## Installare certbot
 
 ```bash
