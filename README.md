@@ -15,3 +15,9 @@ Create a new post:
 ```bash
 jekyll post "My New Post"
 ```
+
+Build the site:
+
+```bash
+jekyll build
+```
