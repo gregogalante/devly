@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Devly Problems
+title: 👨‍💻 Devly
 email: me@gregoriogalante.com
 description: >- # this means to ignore newlines until "baseurl:"
   The place where I write about my daily dev problems (and solutions 😀).

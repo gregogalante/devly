@@ -1,4 +1,4 @@
-# Devly Problems
+# Devly
 
 The place where I write about my daily dev problems (and solutions 😀).
 
