@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[IT] Installare e configurare Lets Encrypt con Nginx"
+title:  "[IT] Installazione e configurazione Lets Encrypt su Nginx"
 date:   2024-01-01 00:00:00 +0100
 categories: sysadmin
 ---
