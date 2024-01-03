@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[IT] Configurazione di Nginx su server Ubuntu 18+"
-date:   2024-01-01 00:00:00 +0100
+title:  "🇮🇹 Configurazione Nginx"
+date:   2023-01-02 00:00:00 +0100
 categories: sysadmin
 ---
 Dei seguito alcuni verranno presentati alcuni esempi delle principali tipologie di applicativi configurabili nel file /etc/nginx/site-available/default o su altri file nella stessa directory.

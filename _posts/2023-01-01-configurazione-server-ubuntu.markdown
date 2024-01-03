@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[IT] Installazione di Nginx e PM2 su server Ubuntu 18+"
-date:   2024-01-01 00:00:00 +0100
+title:  "🇮🇹 Configurazione server Ubuntu"
+date:   2023-01-01 00:00:00 +0100
 categories: sysadmin
 ---
 ## CREAZIONE DI UN UTENTE DEPLOY

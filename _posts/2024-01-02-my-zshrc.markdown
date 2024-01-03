@@ -5,9 +5,6 @@ date:   2024-01-02 00:00:00 +0100
 categories: dev
 ---
 ```sh
-# This is a bash_profile for Mac OS X with some useful functions and aliases.
-##
-
 # Setup nano as default editor
 
 export EDITOR=nano

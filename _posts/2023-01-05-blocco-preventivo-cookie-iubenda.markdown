@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[IT] Blocco preventivo dei cookie tramite Iubenda"
-date:   2024-01-01 00:00:00 +0100
+title:  "🇮🇹 Blocco preventivo dei cookie tramite Iubenda"
+date:   2023-01-05 00:00:00 +0100
 categories: webdev
 ---
 ## WORDPRESS
