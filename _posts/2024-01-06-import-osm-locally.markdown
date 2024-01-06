@@ -39,9 +39,9 @@ docker run -i -t --rm --link postgis-osm:pg -v ~/osm:/osm ingmapping/osm2pgsql -
 
 Now you can connect to local postgresql database and read data:
 
-Host: 127.0.0.1
-Port: 5432
-Username: postgres
-Password: password
+- Host: 127.0.0.1
+- Port: 5432
+- Username: postgres
+- Password: password
 
-IMPORTANT: Run on a machine with a lot of DISK SPACE (min 1TB)
+**IMPORTANT**: Run on a machine with a lot of DISK SPACE (min 1TB)
