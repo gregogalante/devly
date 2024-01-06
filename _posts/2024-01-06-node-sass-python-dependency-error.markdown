@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "node-sass python dependencies. How to fix it?"
+title:  "How to fix node-sass python dependency error"
 date:   2024-01-06 00:00:00 +0100
 categories: webdev
 ---
