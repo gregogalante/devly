@@ -48,3 +48,12 @@ server {
   index index.html;
 }
 ```
+
+## Creare/aggiornare un certificato senza utilizzo di un webserver
+
+```bash
+sudo certbot certonly --cert-name yourdomain.here
+```
+
+Successivamente scegliere l’opzione 1 per creare un certificato.
+NOTE: Per eseguire questa operazione è necessario che la porta 80 del server sia aperta.
