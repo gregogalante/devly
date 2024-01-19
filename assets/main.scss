@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+a {
+  color: rgb(3 37 108);
+}
+
+a:visited {
+  color: rgb(23 104 172);
+}
+
+.site-title, .post-title {
+  color: rgb(3 37 108) !important;
+  font-weight: bold;
+}
+
+.site-header {
+  border-top: 5px solid rgb(3 37 108);
+}
