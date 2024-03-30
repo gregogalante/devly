@@ -12,7 +12,6 @@ In this post, I will show you how to run Visual Studio Code on a remote server w
 ## Prerequisites
 
 - A remote server with Ubuntu installed
-- Visual Studio Code installed on your local machine
 
 ## Steps
 
