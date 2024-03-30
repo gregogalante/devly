@@ -16,24 +16,24 @@ In this post, I will show you how to run Visual Studio Code on a remote server w
 
 ## Steps
 
-1. Install the `code-server` package on your remote server:
+- Install the `code-server` package on your remote server:
 
 ```bash
 curl -fsSL https://code-server.dev/install.sh | sh
 ```
 
-2. Edit the `~/.config/code-server/config.yaml` file to set bind address to `0.0.0.0`:
+- Edit the `~/.config/code-server/config.yaml` file to set bind address to `0.0.0.0`:
 
 ```yaml
 bind-addr: 0.0.0.0:8080 # instead of 127.0.0.1:8080
 # NOTE: Optionally update the password
 ```
 
-3. Start the `code-server` service:
+- Start the `code-server` service:
 
 ```bash
 sudo systemctl enable --now code-server@$USER
 ```
 
-4. Open a browser and navigate to `http://<your-server-ip>:8080` to access Visual Studio Code running on your remote server.
+- Open a browser and navigate to `http://<your-server-ip>:8080` to access Visual Studio Code running on your remote server.
 
