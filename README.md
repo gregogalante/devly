@@ -9,3 +9,9 @@ bundle exec jekyll serve --livereload
 ```
 
 Then open your browser to `http://localhost:4000`.
+
+## Local build
+
+```bash
+bundle exec jekyll build
+```
