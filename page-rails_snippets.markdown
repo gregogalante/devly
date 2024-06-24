@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  "How to set S3 Storage Class to Rails ActiveStorage configuration"
-date:   2024-02-15 00:00:00 +0100
-categories: webdev
+layout: page
+title:  "03 - Rails snippets"
 ---
+
+## ACTIVESTORAGE S3 WITH CUSTOM STORAGE CLASS
 
 ```yml
 local:

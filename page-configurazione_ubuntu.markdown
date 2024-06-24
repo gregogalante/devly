@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "🇮🇹 Configurazione server Ubuntu"
-date:   2023-01-01 00:00:00 +0100
-categories: sysadmin
+layout: page
+title:  "00 - Configurazione Ubuntu"
 ---
+
 ## CREAZIONE DI UN UTENTE DEPLOY
 
 Per motivi di sicurezza è una buona pratica utilizzare un utenza diversa da root per gestire le attività di deploy degli applicativi all’interno del server.
@@ -18,6 +17,8 @@ gpasswd -a deploy sudo
 Alla richiesta di inserire una password per l’utente si consiglia di generare una password complessa.
 
 Una volta completata l’installazione uscire dal sistema operativo e rientrare utilizzando l’utenza deploy appena creata.
+
+NOTE: Operazione **non obbligatoria**.
 
 ## INSTALLAZIONE DELLE DIPENDENZE DEL SISTEMA
 
@@ -45,7 +46,7 @@ sudo nano /etc/fail2ban/jail.local
 ## INSTALLARE NODE.JS
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs
 ```
@@ -65,11 +66,7 @@ npm install -g pm2
 ## ATTIVARE ELIMINAZIONE LOG PM2
 
 ```bash
-crontab -e
-```
-
-```txt
-0 0 * * * rm -rf /home/deploy/.pm2/logs/*
+echo "0 0 * * * rm -rf /home/deploy/.pm2/logs/*" | crontab
 ```
 
 

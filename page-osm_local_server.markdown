@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Import OpenStreetMap data locally"
-date:   2024-01-06 00:00:00 +0100
-categories: dev
+layout: page
+title:  "OSM Local Server"
 ---
 
-I'm using [Docker](https://www.docker.com/) to import OpenStreetMap data locally.
+I'm using [Docker](https://www.docker.com/) to import OpenStreetMap data locally.<br>
 I'm using [osm2pgsql](https://github.com/ingmapping/docker-osm2pgsql) docker image and [postgis-osm](https://github.com/ingmapping/docker-postgis-osm) docker image.
 
 ## Steps

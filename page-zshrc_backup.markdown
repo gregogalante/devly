@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "My .zshrc"
-date:   2024-01-02 00:00:00 +0100
-categories: dev
+layout: page
+title:  ".zshrc backup"
 ---
 ```sh
 # Setup nano as default editor

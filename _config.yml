@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 👨‍💻 Devly
+title: Devly
 email: me@gregoriogalante.com
 description: >- # this means to ignore newlines until "baseurl:"
   The place where I write about my daily dev problems (and solutions).
@@ -26,9 +26,24 @@ baseurl: "/devly" # the subpath of your site, e.g. /blog
 url: "https://gregogalante.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gregogalante
 github_username:  gregogalante
+color_scheme: custom
+logo: "/assets/logo.png"
+favicon_ico: "/assets/favicon.ico"
+aux_links:
+  "Get in touch":
+    - "https://gregoriogalante.com/"
+aux_links_new_tab: true
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 

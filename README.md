@@ -2,16 +2,10 @@
 
 The place where I write about my daily dev problems (and solutions).
 
-## Development
-
-Start server locally:
+## Local Development
 
 ```bash
-jekyll serve --livereload
+bundle exec jekyll serve --livereload
 ```
 
-Build the site:
-
-```bash
-jekyll build
-```
+Then open your browser to `http://localhost:4000`.
