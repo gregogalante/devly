@@ -27,7 +27,7 @@ url: "https://gregogalante.github.io" # the base hostname & protocol for your si
 twitter_username: gregogalante
 github_username:  gregogalante
 color_scheme: custom
-logo: "/assets/logo.png"
+# logo: "/assets/logo.png"
 favicon_ico: "/assets/favicon.ico"
 aux_links:
   "Get in touch":
