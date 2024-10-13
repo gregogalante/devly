@@ -52,6 +52,22 @@ server {
 ### Installare certbot
 
 ```bash
+sudo apt install certbot python3-certbot-nginx
+```
+
+### Creare un certificato con certbot
+
+```bash
+sudo certbot --nginx -d example.com
+```
+
+Dopo l'esecuzione la configurazione di nginx verrà aggiornata automaticamente con i certificati SSL.
+
+## CERTIFICATI SSL TRAMITE LET'S ENCRYPT (BACKUP)
+
+### Installare certbot
+
+```bash
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install certbot
