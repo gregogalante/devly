@@ -10,7 +10,7 @@ docker run -d \
 --name local-mysql \
 -e MYSQL_ROOT_PASSWORD=password \
 -p 3306:3306 \
-mysql:latest \
+mysql:8 \
 --max_allowed_packet=1073741824
 ```
 Connect to mysql server:
